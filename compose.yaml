@@ -16,13 +16,37 @@ services:
     ports:
       - "7860:7860"
     depends_on:
-      - api-plantnet
+      - bff-api
     restart: always
 
-  api-plantnet:
-    image: magelagua/api-plantnet
+  bff-api:
+    image: magelagua/bff-api
     build:
-      context: api-plantnet
+      context: bff-api
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8082"
+    depends_on:
+      - plantnet-api
+      - db-api
+
+  plantnet-api:
+    image: magelagua/plantnet-api
+    build:
+      context: plantnet-api
       dockerfile: Dockerfile
     ports:
       - "8081:8081"
+
+  db-api:
+    image: magelagua/db-api
+    build:
+      context: db-api
+      dockerfile: Dockerfile
+    ports:
+      - "8083:8083"
+    volumes:
+      - dados-flowers:/dados
+
+volumes:
+  dados-flowers:

@@ -1,0 +1,67 @@
+﻿name;cut flowers;perfumes;medicine;poison to cats;poison to dogs;scientific name
+Rosa;1;1;1;safe;safe;Rosa spp.
+Tulipa;1;0;1;toxic;toxic;Tulipa spp.
+Margarida;1;0;1;mildly toxic;mildly toxic;Leucanthemum vulgare
+Girassol;1;0;1;safe;safe;Helianthus annuus
+Orquidea;1;1;1;safe;safe;Orchidaceae spp.
+Jasmine;1;1;1;mildly toxic;mildly toxic;Jasminum officinale
+Lavanda;1;1;1;toxic;toxic;Lavandula angustifolia
+Rosa-da-índia;1;0;1;mildly toxic;mildly toxic;Catharanthus roseus
+Crisântemo;1;0;1;toxic;toxic;Chrysanthemum spp.
+Narciso Trombeta;1;0;1;toxic;toxic;Narcissus pseudonarcissus
+Frésia;1;1;0;safe;safe;Freesia spp.
+Iris;1;0;1;toxic;toxic;Iris spp.
+Lírio;1;1;1;toxic;mildly toxic;Lilium spp.
+Peônia;1;1;1;toxic;toxic;Paeonia spp.
+Gardênia;1;1;1;toxic;toxic;Gardenia jasminoides
+Palma-de-santa-rita;1;0;1;toxic;toxic;Zinnia elegans
+Jacinto-de-Água;1;0;1;toxic;toxic;Eichhornia crassipes
+Lilás;1;0;1;mildly toxic;mildly toxic;Syringa vulgaris
+Narciso-do-poeta;1;1;1;toxic;toxic;Narcissus poeticus
+Papoula;1;0;1;toxic;toxic;Papaver rhoeas
+Crânio de Dragão;1;0;1;safe;safe;Antirrhinum majus
+Violeta;1;0;1;safe;safe;Viola odorata
+Zínnia;1;0;1;safe;safe;Zinnia elegans
+Astromélia;1;0;1;mildly toxic;mildly toxic;Alstroemeria spp.
+Anêmona;1;0;1;toxic;toxic;Anemone spp.
+Asters;1;0;1;safe;safe;Aster spp.
+Calêndula;1;0;1;safe;safe;Calendula officinalis
+Cravo;1;0;1;toxic;toxic;Dianthus caryophyllus
+Cosmos;1;0;1;safe;safe;Cosmos bipinnatus
+Dente de Leão;1;0;1;safe;safe;Taraxacum officinale
+Erva-Piolha;1;0;1;toxic;toxic;Delphinium consolida
+Dedaleiro;1;0;1;toxic;toxic;Digitalis purpurea
+Ilangue-Ilangue;1;1;1;toxic;toxic;Cananga odorata
+Tuberosa;1;1;1;safe;safe;Polianthes tuberosa
+Lonicera;1;1;1;toxic;toxic;Lonicera spp.
+Jasmim-Manga;1;1;1;toxic;toxic;Plumeria rubra
+Heliotrópio;1;1;1;toxic;toxic;Heliotropium arborescens
+Gerânio;1;1;1;toxic;toxic;Pelargonium spp.
+Trevo;1;1;1;toxic;toxic;Trifolium spp.
+Cominho;1;1;1;safe;safe;Cuminum cyminum
+Cactos;0;0;0;toxic;toxic;Cactaceae spp.
+Dioneia;0;0;0;safe;safe;Dionaea muscipula
+Planta Carnívora;0;0;0;safe;safe;Nepenthes spp.
+Drosera;0;0;0;safe;safe;Drosera spp.
+Utricularia;0;0;0;safe;safe;Utricularia spp.
+Pinguicula;0;0;0;safe;safe;Pinguicula spp.
+Lírio Cobra;0;0;0;safe;safe;Darlingtonia californica
+Planta Cobra;0;0;0;safe;safe;Arisaema triphyllum
+Junco Espiral;0;0;0;safe;safe;Juncus effusus
+Delfino;1;0;1;toxic;toxic;Delphinium spp.
+Aconito;1;0;1;toxic;toxic;Aconitum spp.
+Cardo-Globo;1;0;1;safe;safe;Echinops spp.
+Malvas-Rosa;1;0;1;safe;safe;Alcea rosea
+Verbena;1;0;1;safe;safe;Verbena spp.
+Amor-Perfeito;1;0;1;safe;safe;Viola tricolor
+Viola Tricolor;1;0;1;safe;safe;Viola tricolor
+Viola;1;0;1;safe;safe;Viola spp.
+Não-me-esqueça;1;0;1;safe;safe;Myosotis spp.
+Cravina;1;0;1;toxic;toxic;Dianthus barbatus
+Prímula;1;0;1;toxic;toxic;Primula vulgaris
+Ciclame;1;0;1;toxic;toxic;Cyclamen persicum
+Íris Anã;1;0;1;toxic;toxic;Iris pumila
+Campanhia-azul;1;0;1;toxic;toxic;Campanula rotundifolia
+Açafrão;1;0;1;toxic;toxic;Crocus sativus
+Glória da Neve;1;0;1;toxic;toxic;Chionodoxa luciliae
+Cila;1;0;1;toxic;toxic;Scilla spp.

@@ -9,10 +9,10 @@ def analisar_imagem(imagem_path):
         files = {"file": f}
         try:
             # Envia a imagem via REST para o backend de IA
-            response = requests.post("http://api-plantnet:8081/identify", files=files)
+            response = requests.post("http://bff-api:8082/identify", files=files)
             if response.status_code == 200:
                 dados = response.json()
-                return f"Planta reconhecida pelo Pl@ntNet: {dados.get('bestMatch')}"
+                return f"Planta reconhecida pelo Pl@ntNet: {dados.get('name')}. É venenosa pra gatos? {dados.get('poisonToCats')}. É venenosa pra cachorros? {dados.get('poisonToDogs')}"
             else:
                 return f"Erro no servidor: [{response.status_code}] - [{response.message}]"
         except Exception as e:

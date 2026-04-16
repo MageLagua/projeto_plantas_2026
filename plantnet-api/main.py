@@ -9,7 +9,7 @@ app = FastAPI()
 
 @app.get("/hello-world")
 def hello_world():
-    return "Hello!"
+    return "Hello from plantnet!"
 
 
 @app.post("/identify")
