@@ -19,6 +19,16 @@ services:
       - bff-api
     restart: always
 
+  ui:
+    image: magelagua/ui
+    build:
+      context: ui
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+      - bff-api
+
   bff-api:
     image: magelagua/bff-api
     build:
