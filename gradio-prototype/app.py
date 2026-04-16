@@ -1,0 +1,29 @@
+import gradio as gr
+import requests
+
+def analisar_imagem(imagem_path):
+    if imagem_path is None:
+        return "Nenhuma imagem enviada."
+    
+    with open(imagem_path, "rb") as f:
+        files = {"file": f}
+        try:
+            # Envia a imagem via REST para o backend de IA
+            response = requests.post("http://api-plantnet:8081/identify", files=files)
+            if response.status_code == 200:
+                dados = response.json()
+                return f"Planta reconhecida pelo Pl@ntNet: {dados.get('bestMatch')}"
+            else:
+                return f"Erro no servidor: [{response.status_code}] - [{response.message}]"
+        except Exception as e:
+            return f"Erro de comunicação: [{str(e)}]"
+
+demo = gr.Interface(
+    fn=analisar_imagem,
+    inputs=gr.Image(type="filepath", label="Faça upload de uma imagem"),
+    outputs=gr.Textbox(label="Resultado da IA e Banco de Dados"),
+    title="👁️ Reconhecimento de Imagens"
+)
+
+if __name__ == "__main__":
+    demo.launch(server_name="0.0.0.0", server_port=7860)
